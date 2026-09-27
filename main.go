@@ -3,5 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Git playground")
+	fmt.Println(greeting("Gopher"))
+}
+
+func greeting(name string) string {
+	return "Hello, " + name
 }
