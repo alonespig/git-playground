@@ -6,6 +6,8 @@ import (
 )
 
 func main() {
+	// Temporary debug output for the revert exercise.
+	fmt.Println("DEBUG: start")
 	fmt.Println(greeting("Gopher"))
 	fmt.Println(greeting("   "))
 }
