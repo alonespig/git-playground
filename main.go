@@ -12,6 +12,7 @@ func main() {
 
 func greeting(name string) string {
 	name = strings.TrimSpace(name)
+	name = strings.TrimPrefix(name, "@")
 	if name == "" {
 		name = "guest"
 	}
