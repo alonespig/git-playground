@@ -15,5 +15,5 @@ func greeting(name string) string {
 	if name == "" {
 		name = "guest"
 	}
-	return "Hello, " + name
+	return "Hi, " + name
 }
